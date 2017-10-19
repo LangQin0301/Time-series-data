@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Pilar's Gist</title>
+		<!-- Load c3.css -->
+        <link href="c3.min.css" rel="stylesheet" type="text/css">
+        <!-- Load d3.js -->
+        <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+        <!-- Load c3.js -->
+        <script src="c3.min.js"></script>
+		<meta name = "viewport" content = "initial-scale = 1, user-scalable = no">
+		<style>
+		    #chart {
+                margin: 10px;
+                padding: 10px;
+                width: 90%;
+			}
+            header {
+                font: 36px sans-serif;
+                text-align: center;
+            }
+            p {
+                font: 18px sans-serif;
+                text-align: center;
+            }
+		</style>
+	</head>
+	<body>
+        <header>U.S. Crime Rate</header>
+        <p>Source: <a href="https://data.opendatasoft.com/explore/dataset/us-crime-rate@public/">Rates of criminal offences by category</a></p>
+        <div id="chart"></div>
+
+        <!-- INCLUDE YOUR JS -->
+        <script src="chart.js"></script>
+    </body>
+</html>
