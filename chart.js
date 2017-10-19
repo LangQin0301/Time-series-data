@@ -40,4 +40,3 @@
         	]
 		});
 		// THIS NUMBER SAYS HOW LONG (seconds) BEFORE THE CHART TRANSITIONS
-	}, 1000);
